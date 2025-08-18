@@ -1,0 +1,14 @@
+[project]
+name = "modern-economic-dashboard-refactor"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "fredapi>=0.5.2",
+    "plotly>=6.3.0",
+    "streamlit>=1.48.1",
+    "streamlit-autorefresh>=1.0.1",
+    "streamlit-option-menu>=0.4.0",
+    "vnstock>=3.2.6",
+    "yfinance>=0.2.65",
+]

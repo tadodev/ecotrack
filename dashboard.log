@@ -1,0 +1,150 @@
+2025-08-18 16:30:39,017 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
+2025-08-18 16:41:14,904 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
+2025-08-18 16:43:48,323 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
+2025-08-18 16:53:37,382 - ERROR - HTTP Error 404: 
+2025-08-18 16:53:38,520 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:38,521 - ERROR - ['^VNINDEX']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:38,848 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:38,849 - ERROR - ['^VNI']: YFPricesMissingError('possibly delisted; no price data found  (period=7d)')
+2025-08-18 16:53:40,490 - ERROR - HTTP Error 404: 
+2025-08-18 16:53:41,482 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:41,482 - ERROR - ['^VN30']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:42,930 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:42,930 - ERROR - ['^VNX']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:44,433 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:44,434 - ERROR - ['VCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:45,789 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:45,789 - ERROR - ['TCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:47,837 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:47,837 - ERROR - ['BID.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:49,109 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:49,110 - ERROR - ['CTG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:50,372 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:50,373 - ERROR - ['VPB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:51,554 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:51,554 - ERROR - ['GAS.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:52,774 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:52,774 - ERROR - ['PLX.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:54,080 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:54,081 - ERROR - ['PVD.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:55,244 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:55,245 - ERROR - ['POW.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:55,716 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:55,717 - ERROR - ['REE.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d)')
+2025-08-18 16:53:56,933 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:56,933 - ERROR - ['VHM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:58,250 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:58,250 - ERROR - ['VIC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:53:59,846 - ERROR - 
+1 Failed download:
+2025-08-18 16:53:59,846 - ERROR - ['KDH.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:01,279 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:01,280 - ERROR - ['DXG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:02,551 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:02,552 - ERROR - ['NVL.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:03,733 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:03,733 - ERROR - ['FPT.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:05,069 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:05,070 - ERROR - ['CMG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:06,241 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:06,241 - ERROR - ['ELC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:08,306 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:08,307 - ERROR - ['SVC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:09,578 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:09,579 - ERROR - ['HPG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:10,831 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:10,832 - ERROR - ['HSG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:12,123 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:12,123 - ERROR - ['NKG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:13,546 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:13,546 - ERROR - ['VNM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:15,108 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:15,108 - ERROR - ['MSN.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:16,617 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:16,617 - ERROR - ['VJC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:25,892 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:25,892 - ERROR - ['VCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:26,651 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:26,651 - ERROR - ['TCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:27,868 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:27,869 - ERROR - ['BID.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:28,557 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:28,558 - ERROR - ['CTG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:31,227 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:31,227 - ERROR - ['VPB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:31,915 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:31,915 - ERROR - ['GAS.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:32,541 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:32,541 - ERROR - ['PLX.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:33,250 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:33,251 - ERROR - ['PVD.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:33,960 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:33,960 - ERROR - ['POW.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:34,235 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:34,235 - ERROR - ['REE.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d)')
+2025-08-18 16:54:34,982 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:34,983 - ERROR - ['VHM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:35,858 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:35,859 - ERROR - ['VIC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:36,659 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:36,659 - ERROR - ['KDH.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:37,272 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:37,272 - ERROR - ['DXG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:38,319 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:38,320 - ERROR - ['NVL.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:39,112 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:39,112 - ERROR - ['FPT.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:39,874 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:39,875 - ERROR - ['CMG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:40,438 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:40,438 - ERROR - ['ELC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 16:54:41,131 - ERROR - 
+1 Failed download:
+2025-08-18 16:54:41,131 - ERROR - ['SVC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
+2025-08-18 17:00:46,555 - ERROR - VN data error: RetryError[<Future at 0x1e49c1789d0 state=finished raised HTTPError>]
