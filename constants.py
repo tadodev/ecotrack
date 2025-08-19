@@ -1,4 +1,4 @@
-# constants_enhanced.py - Enhanced constants and configuration
+# constants.py - Enhanced constants and configuration
 from typing import Dict, List, Tuple
 
 # Enhanced Vietnam stock classification

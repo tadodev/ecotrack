@@ -1,285 +1,249 @@
-2025-08-18 16:30:39,017 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
-2025-08-18 16:41:14,904 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
-2025-08-18 16:43:48,323 - ERROR - VN data error: 'Quote' object has no attribute 'price_board'
-2025-08-18 16:53:37,382 - ERROR - HTTP Error 404: 
-2025-08-18 16:53:38,520 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:38,521 - ERROR - ['^VNINDEX']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:38,848 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:38,849 - ERROR - ['^VNI']: YFPricesMissingError('possibly delisted; no price data found  (period=7d)')
-2025-08-18 16:53:40,490 - ERROR - HTTP Error 404: 
-2025-08-18 16:53:41,482 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:41,482 - ERROR - ['^VN30']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:42,930 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:42,930 - ERROR - ['^VNX']: YFPricesMissingError('possibly delisted; no price data found  (period=7d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:44,433 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:44,434 - ERROR - ['VCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:45,789 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:45,789 - ERROR - ['TCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:47,837 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:47,837 - ERROR - ['BID.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:49,109 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:49,110 - ERROR - ['CTG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:50,372 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:50,373 - ERROR - ['VPB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:51,554 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:51,554 - ERROR - ['GAS.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:52,774 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:52,774 - ERROR - ['PLX.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:54,080 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:54,081 - ERROR - ['PVD.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:55,244 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:55,245 - ERROR - ['POW.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:55,716 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:55,717 - ERROR - ['REE.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d)')
-2025-08-18 16:53:56,933 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:56,933 - ERROR - ['VHM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:58,250 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:58,250 - ERROR - ['VIC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:53:59,846 - ERROR - 
-1 Failed download:
-2025-08-18 16:53:59,846 - ERROR - ['KDH.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:01,279 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:01,280 - ERROR - ['DXG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:02,551 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:02,552 - ERROR - ['NVL.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:03,733 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:03,733 - ERROR - ['FPT.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:05,069 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:05,070 - ERROR - ['CMG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:06,241 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:06,241 - ERROR - ['ELC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:08,306 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:08,307 - ERROR - ['SVC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:09,578 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:09,579 - ERROR - ['HPG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:10,831 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:10,832 - ERROR - ['HSG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:12,123 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:12,123 - ERROR - ['NKG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:13,546 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:13,546 - ERROR - ['VNM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:15,108 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:15,108 - ERROR - ['MSN.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:16,617 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:16,617 - ERROR - ['VJC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:25,892 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:25,892 - ERROR - ['VCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:26,651 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:26,651 - ERROR - ['TCB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:27,868 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:27,869 - ERROR - ['BID.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:28,557 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:28,558 - ERROR - ['CTG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:31,227 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:31,227 - ERROR - ['VPB.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:31,915 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:31,915 - ERROR - ['GAS.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:32,541 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:32,541 - ERROR - ['PLX.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:33,250 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:33,251 - ERROR - ['PVD.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:33,960 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:33,960 - ERROR - ['POW.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:34,235 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:34,235 - ERROR - ['REE.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d)')
-2025-08-18 16:54:34,982 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:34,983 - ERROR - ['VHM.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:35,858 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:35,859 - ERROR - ['VIC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:36,659 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:36,659 - ERROR - ['KDH.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:37,272 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:37,272 - ERROR - ['DXG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:38,319 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:38,320 - ERROR - ['NVL.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:39,112 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:39,112 - ERROR - ['FPT.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:39,874 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:39,875 - ERROR - ['CMG.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:40,438 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:40,438 - ERROR - ['ELC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 16:54:41,131 - ERROR - 
-1 Failed download:
-2025-08-18 16:54:41,131 - ERROR - ['SVC.HM']: YFPricesMissingError('possibly delisted; no price data found  (period=10d) (Yahoo error = "No data found, symbol may be delisted")')
-2025-08-18 17:00:46,555 - ERROR - VN data error: RetryError[<Future at 0x1e49c1789d0 state=finished raised HTTPError>]
-2025-08-19 11:08:58,543 - INFO - Loading US economic data...
-2025-08-19 11:09:04,087 - INFO - Loading Fed probability data...
-2025-08-19 11:09:05,302 - INFO - Loading Vietnam market data...
-2025-08-19 11:09:05,482 - ERROR - TCBS bars error for VNINDEX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:05,613 - ERROR - TCBS bars error for VN30: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:05,744 - ERROR - TCBS bars error for HNXINDEX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:05,894 - ERROR - TCBS bars error for HNX30: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:06,396 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:06,549 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:06,976 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:07,092 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:07,472 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:07,597 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:08,041 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:15,714 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:16,146 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:16,309 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:16,661 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:16,799 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:17,137 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:17,960 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:18,232 - ERROR - TCBS bars error for VCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:18,381 - ERROR - TCBS bars error for BID: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:18,508 - ERROR - TCBS bars error for CTG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:18,665 - ERROR - TCBS bars error for TCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:18,793 - ERROR - TCBS bars error for MBB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:18,938 - ERROR - TCBS bars error for VPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:19,122 - ERROR - TCBS bars error for ACB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:19,252 - ERROR - TCBS bars error for TPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:20,587 - ERROR - TCBS bars error for STB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:20,739 - ERROR - TCBS bars error for VHM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:20,866 - ERROR - TCBS bars error for VIC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,006 - ERROR - TCBS bars error for VRE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,158 - ERROR - TCBS bars error for KDH: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,309 - ERROR - TCBS bars error for NVL: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,447 - ERROR - TCBS bars error for DXG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,599 - ERROR - TCBS bars error for BCM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,779 - ERROR - TCBS bars error for VNM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:21,973 - ERROR - TCBS bars error for MSN: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,113 - ERROR - TCBS bars error for MWG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,292 - ERROR - TCBS bars error for PNJ: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,445 - ERROR - TCBS bars error for SAB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,611 - ERROR - TCBS bars error for GAS: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,762 - ERROR - TCBS bars error for PLX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:22,897 - ERROR - TCBS bars error for POW: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,051 - ERROR - TCBS bars error for REE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,197 - ERROR - TCBS bars error for HPG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,361 - ERROR - TCBS bars error for HSG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,496 - ERROR - TCBS bars error for NKG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,655 - ERROR - TCBS bars error for FPT: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,824 - ERROR - TCBS bars error for CMG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:23,973 - ERROR - TCBS bars error for VJC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:24,242 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:24,613 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1752944400&to=1755536400
-2025-08-19 11:09:24,864 - ERROR - TCBS bars error for VCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,022 - ERROR - TCBS bars error for BID: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,271 - ERROR - TCBS bars error for CTG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,418 - ERROR - TCBS bars error for TCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,543 - ERROR - TCBS bars error for MBB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,656 - ERROR - TCBS bars error for VPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,777 - ERROR - TCBS bars error for ACB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:25,914 - ERROR - TCBS bars error for TPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:27,954 - ERROR - TCBS bars error for STB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,081 - ERROR - TCBS bars error for VHM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,195 - ERROR - TCBS bars error for VIC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,346 - ERROR - TCBS bars error for VRE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,462 - ERROR - TCBS bars error for KDH: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,586 - ERROR - TCBS bars error for NVL: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,711 - ERROR - TCBS bars error for DXG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,831 - ERROR - TCBS bars error for BCM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:28,945 - ERROR - TCBS bars error for VNM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,108 - ERROR - TCBS bars error for MSN: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,227 - ERROR - TCBS bars error for MWG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,357 - ERROR - TCBS bars error for PNJ: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,523 - ERROR - TCBS bars error for SAB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,628 - ERROR - TCBS bars error for GAS: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,742 - ERROR - TCBS bars error for PLX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,848 - ERROR - TCBS bars error for POW: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:29,959 - ERROR - TCBS bars error for REE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,102 - ERROR - TCBS bars error for HPG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,233 - ERROR - TCBS bars error for HSG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,377 - ERROR - TCBS bars error for NKG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,507 - ERROR - TCBS bars error for FPT: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,631 - ERROR - TCBS bars error for CMG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:30,749 - ERROR - TCBS bars error for VJC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:31,060 - ERROR - TCBS bars error for description: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=DESCRIPTION&type=stock&resolution=D&from=1754931600&to=1755536400
-2025-08-19 11:09:31,206 - ERROR - TCBS bars error for weight_in_vnindex: 400 Client Error: Bad Request for url: https://apipubaws.tcbs.com.vn/stock-insight/v1/stock/bars-long-term?ticker=WEIGHT_IN_VNINDEX&type=stock&resolution=D&from=1754931600&to=1755536400
-2025-08-19 11:09:31,515 - ERROR - TCBS bars error for VCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:31,642 - ERROR - TCBS bars error for BID: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:31,754 - ERROR - TCBS bars error for CTG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:31,884 - ERROR - TCBS bars error for TCB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,081 - ERROR - TCBS bars error for MBB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,207 - ERROR - TCBS bars error for VPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,398 - ERROR - TCBS bars error for ACB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,548 - ERROR - TCBS bars error for TPB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,703 - ERROR - TCBS bars error for STB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:32,842 - ERROR - TCBS bars error for VHM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,030 - ERROR - TCBS bars error for VIC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,176 - ERROR - TCBS bars error for VRE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,326 - ERROR - TCBS bars error for KDH: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,475 - ERROR - TCBS bars error for NVL: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,606 - ERROR - TCBS bars error for DXG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:33,771 - ERROR - TCBS bars error for BCM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,039 - ERROR - TCBS bars error for VNM: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,184 - ERROR - TCBS bars error for MSN: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,348 - ERROR - TCBS bars error for MWG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,503 - ERROR - TCBS bars error for PNJ: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,689 - ERROR - TCBS bars error for SAB: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,825 - ERROR - TCBS bars error for GAS: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:35,955 - ERROR - TCBS bars error for PLX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,103 - ERROR - TCBS bars error for POW: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,268 - ERROR - TCBS bars error for REE: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,449 - ERROR - TCBS bars error for HPG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,579 - ERROR - TCBS bars error for HSG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,711 - ERROR - TCBS bars error for NKG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,861 - ERROR - TCBS bars error for FPT: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:36,996 - ERROR - TCBS bars error for CMG: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:37,119 - ERROR - TCBS bars error for VJC: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:37,264 - ERROR - TCBS bars error for VNINDEX: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:37,403 - ERROR - TCBS bars error for VN30: Already tz-aware, use tz_convert to convert.
-2025-08-19 11:09:37,404 - INFO - Loading Vietnam economic indicators...
-2025-08-19 11:09:38,594 - INFO - Loading global economic context...
-2025-08-19 11:09:43,954 - INFO - Loading global markets data...
-2025-08-19 11:09:46,368 - INFO - All data sources loaded successfully
-2025-08-19 11:10:04,203 - ERROR - Application failed: The `spec` argument to `st.columns` must be either a positive integer (number of columns) or a list of positive numbers (width ratios of the columns). See [documentation](https://docs.streamlit.io/develop/api-reference/layout/st.columns) for more information.
-2025-08-19 11:10:05,682 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
-2025-08-19 11:10:08,861 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
-2025-08-19 11:10:21,235 - ERROR - Application failed: The `spec` argument to `st.columns` must be either a positive integer (number of columns) or a list of positive numbers (width ratios of the columns). See [documentation](https://docs.streamlit.io/develop/api-reference/layout/st.columns) for more information.
-2025-08-19 11:10:24,944 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
-2025-08-19 11:10:33,663 - ERROR - Application failed: name 'charts' is not defined
-2025-08-19 11:10:50,536 - ERROR - Application failed: No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\tado\.streamlit\secrets.toml, C:\Users\tado\Downloads\ecotrack\.streamlit\secrets.toml
-2025-08-19 11:10:52,981 - ERROR - Application failed: name 'charts' is not defined
-2025-08-19 11:10:53,690 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
-2025-08-19 11:10:54,299 - ERROR - Application failed: The `spec` argument to `st.columns` must be either a positive integer (number of columns) or a list of positive numbers (width ratios of the columns). See [documentation](https://docs.streamlit.io/develop/api-reference/layout/st.columns) for more information.
-2025-08-19 11:10:55,162 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
+2025-08-19 11:10:55,162 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=ï¿½streamlitï¿½ or theme=None to fallback to the default library theme.
+2025-08-19 11:24:30,697 - INFO - Loading US economic data...
+2025-08-19 11:24:35,929 - INFO - Loading Fed probability data...
+2025-08-19 11:24:36,742 - INFO - Loading Vietnam market data...
+2025-08-19 11:24:36,743 - INFO - Starting comprehensive VN market data fetch...
+2025-08-19 11:24:36,743 - INFO - Fetching data for index: VNINDEX
+2025-08-19 11:24:36,895 - INFO - Successfully fetched 11 records for VNINDEX
+2025-08-19 11:24:37,063 - INFO - Successfully fetched 125 records for VNINDEX
+2025-08-19 11:24:37,070 - INFO - Successfully processed VNINDEX: 1651.71 (+0.94%)
+2025-08-19 11:24:37,070 - INFO - Fetching data for index: VN30
+2025-08-19 11:24:37,224 - INFO - Successfully fetched 11 records for VN30
+2025-08-19 11:24:37,396 - INFO - Successfully fetched 125 records for VN30
+2025-08-19 11:24:37,400 - INFO - Successfully processed VN30: 1800.63 (+0.80%)
+2025-08-19 11:24:37,400 - INFO - Fetching data for index: HNXINDEX
+2025-08-19 11:24:37,522 - INFO - Successfully fetched 11 records for HNXINDEX
+2025-08-19 11:24:37,734 - INFO - Successfully fetched 125 records for HNXINDEX
+2025-08-19 11:24:37,738 - INFO - Successfully processed HNXINDEX: 288.46 (+1.62%)
+2025-08-19 11:24:37,738 - INFO - Fetching data for index: HNX30
+2025-08-19 11:24:37,866 - INFO - Successfully fetched 11 records for HNX30
+2025-08-19 11:24:38,049 - INFO - Successfully fetched 125 records for HNX30
+2025-08-19 11:24:38,055 - INFO - Successfully processed HNX30: 643.63 (+1.96%)
+2025-08-19 11:24:38,057 - INFO - Fetching data for index: UPCOMINDEX
+2025-08-19 11:24:38,169 - INFO - No data returned for UPCOMINDEX
+2025-08-19 11:24:38,170 - WARNING - No recent data for UPCOMINDEX
+2025-08-19 11:24:38,170 - INFO - Processed 4 indices
+2025-08-19 11:24:38,308 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 11:24:38,425 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 11:24:38,575 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 11:24:38,940 - INFO - Successfully fetched 22 records for BID
+2025-08-19 11:24:39,068 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 11:24:39,196 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 11:24:39,334 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 11:24:39,454 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 11:24:39,583 - INFO - Successfully fetched 22 records for STB
+2025-08-19 11:24:43,535 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 11:24:43,660 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 11:24:43,784 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 11:24:43,924 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 11:24:44,031 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 11:24:44,159 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 11:24:44,291 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 11:24:44,425 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 11:24:44,590 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 11:24:44,741 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 11:24:44,892 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 11:24:45,015 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 11:24:45,163 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 11:24:45,312 - INFO - Successfully fetched 21 records for SVC
+2025-08-19 11:24:45,482 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 11:24:45,634 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 11:24:45,840 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 11:24:45,966 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 11:24:46,092 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 11:24:46,220 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 11:24:46,332 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 11:24:46,465 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 11:24:46,613 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 11:24:46,777 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 11:24:46,902 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 11:24:47,036 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 11:24:47,182 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 11:24:47,338 - INFO - Successfully fetched 22 records for POW
+2025-08-19 11:24:47,466 - INFO - Successfully fetched 22 records for REE
+2025-08-19 11:24:47,602 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 11:24:47,750 - INFO - Successfully fetched 22 records for PVS
+2025-08-19 11:24:48,132 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 11:24:48,267 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 11:24:48,384 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 11:24:48,532 - INFO - Successfully fetched 22 records for VNS
+2025-08-19 11:24:48,680 - INFO - Successfully fetched 21 records for POM
+2025-08-19 11:24:48,856 - INFO - Successfully fetched 22 records for AAA
+2025-08-19 11:24:49,035 - INFO - Successfully fetched 22 records for GMD
+2025-08-19 11:24:49,169 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 11:24:49,340 - INFO - Successfully fetched 22 records for HVN
+2025-08-19 11:24:49,490 - INFO - Successfully fetched 22 records for ACV
+2025-08-19 11:24:49,652 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 11:24:49,654 - INFO - Sector performance analysis completed
+2025-08-19 11:24:49,791 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 11:24:49,917 - INFO - Successfully fetched 22 records for BID
+2025-08-19 11:24:50,090 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 11:24:50,295 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 11:24:50,457 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 11:24:50,594 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 11:24:50,745 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 11:24:50,884 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 11:24:51,086 - INFO - Successfully fetched 22 records for STB
+2025-08-19 11:24:51,243 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 11:24:51,363 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 11:24:51,514 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 11:24:53,231 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 11:24:53,351 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 11:24:53,465 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 11:24:53,618 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 11:24:53,757 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 11:24:53,890 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 11:24:54,021 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 11:24:54,139 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 11:24:54,263 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 11:24:54,470 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 11:24:54,589 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 11:24:54,723 - INFO - Successfully fetched 22 records for POW
+2025-08-19 11:25:09,788 - ERROR - Timeout fetching data for REE
+2025-08-19 11:25:09,934 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 11:25:10,069 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 11:25:10,183 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 11:25:10,301 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 11:25:10,434 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 11:25:10,588 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 11:25:10,590 - INFO - VN30 analysis completed
+2025-08-19 11:25:10,718 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 11:25:10,874 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 11:25:11,005 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 11:25:11,118 - INFO - Successfully fetched 22 records for BID
+2025-08-19 11:25:11,248 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 11:25:11,382 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 11:25:11,507 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 11:25:11,640 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 11:25:11,776 - INFO - Successfully fetched 22 records for STB
+2025-08-19 11:25:11,929 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 11:25:12,060 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 11:25:12,193 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 11:25:12,335 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 11:25:12,475 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 11:25:12,623 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 11:25:12,742 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 11:25:12,878 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 11:25:13,011 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 11:25:13,119 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 11:25:13,258 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 11:25:13,393 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 11:25:13,511 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 11:25:13,649 - INFO - Successfully fetched 21 records for SVC
+2025-08-19 11:25:13,770 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 11:25:13,925 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 11:25:14,037 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 11:25:14,164 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 11:25:14,307 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 11:25:14,433 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 11:25:14,596 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 11:25:14,719 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 11:25:14,846 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 11:25:14,976 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 11:25:15,097 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 11:25:15,220 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 11:25:15,341 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 11:25:15,479 - INFO - Successfully fetched 22 records for POW
+2025-08-19 11:25:15,600 - INFO - Successfully fetched 22 records for REE
+2025-08-19 11:25:15,732 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 11:25:15,881 - INFO - Successfully fetched 22 records for PVS
+2025-08-19 11:25:16,006 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 11:25:16,141 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 11:25:16,314 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 11:25:16,425 - INFO - Successfully fetched 22 records for VNS
+2025-08-19 11:25:16,581 - INFO - Successfully fetched 21 records for POM
+2025-08-19 11:25:16,755 - INFO - Successfully fetched 22 records for AAA
+2025-08-19 11:25:16,949 - INFO - Successfully fetched 22 records for GMD
+2025-08-19 11:25:17,090 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 11:25:17,221 - INFO - Successfully fetched 22 records for HVN
+2025-08-19 11:25:17,348 - INFO - Successfully fetched 22 records for ACV
+2025-08-19 11:25:17,515 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 11:25:17,516 - INFO - Top stocks analysis completed
+2025-08-19 11:25:17,656 - INFO - Successfully fetched 5 records for VCB
+2025-08-19 11:25:17,804 - INFO - Successfully fetched 5 records for TCB
+2025-08-19 11:25:17,993 - INFO - Successfully fetched 5 records for MBB
+2025-08-19 11:25:18,131 - INFO - Successfully fetched 5 records for BID
+2025-08-19 11:25:18,254 - INFO - Successfully fetched 5 records for CTG
+2025-08-19 11:25:18,393 - INFO - Successfully fetched 5 records for VPB
+2025-08-19 11:25:18,513 - INFO - Successfully fetched 5 records for ACB
+2025-08-19 11:25:18,637 - INFO - Successfully fetched 5 records for TPB
+2025-08-19 11:25:19,355 - INFO - Successfully fetched 5 records for STB
+2025-08-19 11:25:19,502 - INFO - Successfully fetched 5 records for EIB
+2025-08-19 11:25:19,616 - INFO - Successfully fetched 5 records for VHM
+2025-08-19 11:25:19,739 - INFO - Successfully fetched 5 records for VIC
+2025-08-19 11:25:19,873 - INFO - Successfully fetched 5 records for VRE
+2025-08-19 11:25:20,007 - INFO - Successfully fetched 5 records for KDH
+2025-08-19 11:25:20,127 - INFO - Successfully fetched 5 records for DXG
+2025-08-19 11:25:20,251 - INFO - Successfully fetched 5 records for NVL
+2025-08-19 11:25:20,406 - INFO - Successfully fetched 5 records for BCM
+2025-08-19 11:25:20,561 - INFO - Successfully fetched 5 records for KBC
+2025-08-19 11:25:20,691 - INFO - Successfully fetched 5 records for HDG
+2025-08-19 11:25:20,842 - INFO - Successfully fetched 5 records for FPT
+2025-08-19 11:25:20,990 - INFO - Successfully fetched 5 records for CMG
+2025-08-19 11:25:21,134 - INFO - Successfully fetched 5 records for ELC
+2025-08-19 11:25:21,273 - INFO - Successfully fetched 4 records for SVC
+2025-08-19 11:25:21,429 - INFO - Successfully fetched 5 records for VGI
+2025-08-19 11:25:21,568 - INFO - Successfully fetched 5 records for ITD
+2025-08-19 11:25:21,717 - INFO - Successfully fetched 5 records for CSI
+2025-08-19 11:25:23,804 - INFO - Successfully fetched 5 records for VNM
+2025-08-19 11:25:23,939 - INFO - Successfully fetched 5 records for MSN
+2025-08-19 11:25:24,064 - INFO - Successfully fetched 5 records for MWG
+2025-08-19 11:25:24,228 - INFO - Successfully fetched 5 records for PNJ
+2025-08-19 11:25:24,360 - INFO - Successfully fetched 5 records for SAB
+2025-08-19 11:25:24,507 - INFO - Successfully fetched 5 records for MCH
+2025-08-19 11:25:24,659 - INFO - Successfully fetched 5 records for DGW
+2025-08-19 11:25:24,787 - INFO - Successfully fetched 5 records for GAS
+2025-08-19 11:25:24,949 - INFO - Successfully fetched 5 records for PLX
+2025-08-19 11:25:25,100 - INFO - Successfully fetched 5 records for PVD
+2025-08-19 11:25:25,216 - INFO - Successfully fetched 5 records for POW
+2025-08-19 11:25:26,246 - INFO - Successfully fetched 5 records for REE
+2025-08-19 11:25:26,386 - INFO - Successfully fetched 5 records for NT2
+2025-08-19 11:25:26,586 - INFO - Successfully fetched 5 records for PVS
+2025-08-19 11:25:27,720 - INFO - Successfully fetched 5 records for HPG
+2025-08-19 11:25:35,867 - INFO - Successfully fetched 5 records for HSG
+2025-08-19 11:25:36,017 - INFO - Successfully fetched 5 records for NKG
+2025-08-19 11:25:36,148 - INFO - Successfully fetched 5 records for VNS
+2025-08-19 11:25:36,294 - INFO - Successfully fetched 4 records for POM
+2025-08-19 11:25:36,448 - INFO - Successfully fetched 5 records for AAA
+2025-08-19 11:25:36,597 - INFO - Successfully fetched 5 records for GMD
+2025-08-19 11:25:36,741 - INFO - Successfully fetched 5 records for VJC
+2025-08-19 11:25:36,900 - INFO - Successfully fetched 5 records for HVN
+2025-08-19 11:25:37,052 - INFO - Successfully fetched 5 records for ACV
+2025-08-19 11:25:37,214 - INFO - Successfully fetched 5 records for VTP
+2025-08-19 11:25:37,214 - INFO - Market breadth analysis completed
+2025-08-19 11:25:37,351 - INFO - Successfully fetched 65 records for VNINDEX
+2025-08-19 11:25:37,467 - INFO - Successfully fetched 65 records for VN30
+2025-08-19 11:25:37,475 - INFO - Correlation analysis completed
+2025-08-19 11:25:37,475 - INFO - Correlation analysis completed
+2025-08-19 11:25:37,476 - INFO - Comprehensive VN market data fetch completed successfully
+2025-08-19 11:25:37,476 - INFO - Loading Vietnam economic indicators...
+2025-08-19 11:25:38,657 - INFO - Loading global economic context...
+2025-08-19 11:25:44,754 - INFO - Loading global markets data...
+2025-08-19 11:25:44,755 - INFO - Fetching global market data...
+2025-08-19 11:25:44,756 - WARNING - Download failed for ^GSPC: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,768 - WARNING - Download failed for ^DJI: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,776 - WARNING - Download failed for ^IXIC: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,783 - WARNING - Download failed for ^FTSE: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,792 - WARNING - Download failed for ^N225: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,799 - WARNING - Download failed for ^HSI: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,805 - INFO - Successfully processed 0/6 indices
+2025-08-19 11:25:44,806 - WARNING - Download failed for EURUSD=X: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,806 - WARNING - Download failed for GBPUSD=X: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,807 - WARNING - Download failed for USDJPY=X: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,807 - WARNING - Download failed for DX-Y.NYB: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,807 - WARNING - Download failed for CL=F: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,808 - WARNING - Download failed for GC=F: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,808 - WARNING - Download failed for BTC-USD: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,809 - WARNING - Download failed for USDVND=X: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,809 - INFO - Successfully processed 0/8 FX/commodities
+2025-08-19 11:25:44,809 - WARNING - Download failed for VEA: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,810 - WARNING - Download failed for EEM: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,810 - WARNING - Download failed for VWO: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,810 - WARNING - Download failed for FEM: download() got an unexpected keyword argument 'show_errors'
+2025-08-19 11:25:44,811 - INFO - Successfully processed 0/4 Vietnam-related ETFs
+2025-08-19 11:25:44,811 - INFO - Global market data fetch completed: 0/18 instruments (0.0% success rate)
+2025-08-19 11:25:44,812 - INFO - All data sources loaded successfully
+2025-08-19 11:26:15,605 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=ï¿½streamlitï¿½ or theme=None to fallback to the default library theme.
+2025-08-19 11:27:30,965 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=ï¿½streamlitï¿½ or theme=None to fallback to the default library theme.
+2025-08-19 11:27:44,057 - ERROR - Application failed: name 'charts' is not defined
+2025-08-19 11:28:49,868 - ERROR - Application failed: No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\tado\.streamlit\secrets.toml, C:\Users\tado\Downloads\ecotrack\.streamlit\secrets.toml

@@ -1,4 +1,4 @@
-# analysis/investment_enhanced.py
+# analysis/investment.py
 from typing import Dict, List, Tuple, Any
 import numpy as np
 import pandas as pd

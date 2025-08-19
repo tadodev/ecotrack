@@ -1,4 +1,4 @@
-# charts/builders_enhanced.py
+# charts/builders.py
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 import numpy as np
 from typing import Dict, List, Optional
 
-from data.vn_enhanced import get_index_history
+from data.vn import get_index_history
 
 
 def create_comprehensive_charts(us_series, vn_market_data, vn_economic_data, global_context):

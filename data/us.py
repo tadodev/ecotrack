@@ -8,7 +8,7 @@ from fredapi import Fred
 from tenacity import retry, stop_after_attempt, wait_fixed
 
 from config.keys import load_fred_key
-from constants_enhanced import ECONOMIC_INDICATORS
+from constants import ECONOMIC_INDICATORS
 
 logger = logging.getLogger(__name__)
 

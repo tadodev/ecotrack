@@ -5,13 +5,13 @@ from typing import Dict, Any, List
 import plotly.graph_objects as go
 
 from analysis.indicators import format_number
-from analysis.investment_enhanced import (
+from analysis.investment import (
     generate_comprehensive_investment_recommendation,
     get_sector_investment_rationale
 )
-from data.te_enhanced import calculate_economic_score
-from charts.builders_enhanced import create_economic_score_gauge
-from constants_enhanced import VN_MAJOR_STOCKS
+from data.te import calculate_economic_score
+from charts.builders import create_economic_score_gauge
+from constants import VN_MAJOR_STOCKS
 
 
 def apply_enhanced_css():

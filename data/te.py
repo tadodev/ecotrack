@@ -1,4 +1,4 @@
-# data/te_enhanced.py
+# data/te.py
 # Enhanced Trading Economics integration for Vietnam
 import datetime as dt
 import urllib.parse as _up

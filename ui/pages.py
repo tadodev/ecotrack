@@ -6,7 +6,7 @@ import streamlit as st
 
 from analysis.indicators import format_number
 from analysis.recommendations import generate_investment_recommendation
-from constants_enhanced import VN_MAJOR_STOCKS
+from constants import VN_MAJOR_STOCKS
 
 
 def _fmt_value_unit(val: float, unit: str) -> str:

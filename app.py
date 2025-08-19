@@ -1,15 +1,15 @@
-# app_enhanced.py - Enhanced main application
+# app.py - Enhanced main application
 import streamlit as st
 from streamlit_autorefresh import st_autorefresh
 from streamlit_option_menu import option_menu
 import logging
 
 # Enhanced imports
-from charts.builders_enhanced import create_comprehensive_charts
+from charts.builders import create_comprehensive_charts
 from data.global_markets import get_global_market_data
 from data.us import get_enhanced_us_data, get_fed_probability, get_fred_client
-from data.vn_enhanced import get_comprehensive_vn_market_data, get_index_history
-from data.te_enhanced import get_comprehensive_vn_data, get_global_economic_context, calculate_economic_score
+from data.vn import get_comprehensive_vn_market_data, get_index_history
+from data.te import get_comprehensive_vn_data, get_global_economic_context, calculate_economic_score
 from ui.pages_enhanced import (
     apply_enhanced_css, enhanced_header_card,
     show_enhanced_overview_page, show_enhanced_vietnam_page,
