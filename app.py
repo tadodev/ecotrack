@@ -116,7 +116,12 @@ def main():
 
         # Display settings
         st.markdown("### 🎨 Display Options")
-        chart_theme = st.selectbox("Chart Theme", ["plotly", "plotly_white", "plotly_dark"])
+        # FIXED: Only allow valid Streamlit chart themes
+        chart_theme = st.selectbox(
+            "Chart Theme",
+            ["streamlit", None],
+            format_func=lambda x: "Streamlit Default" if x == "streamlit" else "Plotly Default" if x is None else str(x)
+        )
         show_raw_data = st.checkbox("Show Raw Data Tables", value=False)
 
         # Quick stats
@@ -166,7 +171,7 @@ def main():
             data_sources['us_series'],
             data_sources['fed_data']
         )
-        # Render US charts
+        # Render US charts - FIXED: Use proper theme parameter
         if charts.get("us_indicators"):
             st.plotly_chart(charts["us_indicators"], use_container_width=True, theme=chart_theme)
 
@@ -183,7 +188,7 @@ def main():
             data_sources['global_context'],
             data_sources['us_data']
         )
-        # Render global context charts
+        # Render global context charts - FIXED: Use proper theme parameter
         if charts.get("global_context"):
             st.plotly_chart(charts["global_context"], use_container_width=True, theme=chart_theme)
 

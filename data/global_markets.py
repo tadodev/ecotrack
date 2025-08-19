@@ -42,8 +42,20 @@ VN_RELATED_INSTRUMENTS = {
 def _safe_download(symbol: str, period: str = '7d', interval: str = '1d') -> Optional[pd.DataFrame]:
     """Safely download data from Yahoo Finance with comprehensive error handling."""
     try:
-        # Download with progress=False to reduce noise
-        hist = yf.download(symbol, period=period, interval=interval, progress=False, show_errors=False)
+        # FIXED: Remove show_errors parameter that doesn't exist in older yfinance versions
+        # Also handle different yfinance versions by trying different parameter combinations
+
+        # First try with progress=False only
+        try:
+            hist = yf.download(symbol, period=period, interval=interval, progress=False)
+        except TypeError:
+            # If progress parameter doesn't work, try without it
+            try:
+                hist = yf.download(symbol, period=period, interval=interval)
+            except Exception:
+                # Last resort - use Ticker object approach
+                ticker = yf.Ticker(symbol)
+                hist = ticker.history(period=period, interval=interval)
 
         if hist is None or hist.empty:
             logger.info(f"No data returned for {symbol}")

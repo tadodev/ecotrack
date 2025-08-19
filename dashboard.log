@@ -1,225 +1,4 @@
-2025-08-19 11:10:55,162 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=ï¿½streamlitï¿½ or theme=None to fallback to the default library theme.
-2025-08-19 11:24:30,697 - INFO - Loading US economic data...
-2025-08-19 11:24:35,929 - INFO - Loading Fed probability data...
-2025-08-19 11:24:36,742 - INFO - Loading Vietnam market data...
-2025-08-19 11:24:36,743 - INFO - Starting comprehensive VN market data fetch...
-2025-08-19 11:24:36,743 - INFO - Fetching data for index: VNINDEX
-2025-08-19 11:24:36,895 - INFO - Successfully fetched 11 records for VNINDEX
-2025-08-19 11:24:37,063 - INFO - Successfully fetched 125 records for VNINDEX
-2025-08-19 11:24:37,070 - INFO - Successfully processed VNINDEX: 1651.71 (+0.94%)
-2025-08-19 11:24:37,070 - INFO - Fetching data for index: VN30
-2025-08-19 11:24:37,224 - INFO - Successfully fetched 11 records for VN30
-2025-08-19 11:24:37,396 - INFO - Successfully fetched 125 records for VN30
-2025-08-19 11:24:37,400 - INFO - Successfully processed VN30: 1800.63 (+0.80%)
-2025-08-19 11:24:37,400 - INFO - Fetching data for index: HNXINDEX
-2025-08-19 11:24:37,522 - INFO - Successfully fetched 11 records for HNXINDEX
-2025-08-19 11:24:37,734 - INFO - Successfully fetched 125 records for HNXINDEX
-2025-08-19 11:24:37,738 - INFO - Successfully processed HNXINDEX: 288.46 (+1.62%)
-2025-08-19 11:24:37,738 - INFO - Fetching data for index: HNX30
-2025-08-19 11:24:37,866 - INFO - Successfully fetched 11 records for HNX30
-2025-08-19 11:24:38,049 - INFO - Successfully fetched 125 records for HNX30
-2025-08-19 11:24:38,055 - INFO - Successfully processed HNX30: 643.63 (+1.96%)
-2025-08-19 11:24:38,057 - INFO - Fetching data for index: UPCOMINDEX
-2025-08-19 11:24:38,169 - INFO - No data returned for UPCOMINDEX
-2025-08-19 11:24:38,170 - WARNING - No recent data for UPCOMINDEX
-2025-08-19 11:24:38,170 - INFO - Processed 4 indices
-2025-08-19 11:24:38,308 - INFO - Successfully fetched 22 records for VCB
-2025-08-19 11:24:38,425 - INFO - Successfully fetched 22 records for TCB
-2025-08-19 11:24:38,575 - INFO - Successfully fetched 22 records for MBB
-2025-08-19 11:24:38,940 - INFO - Successfully fetched 22 records for BID
-2025-08-19 11:24:39,068 - INFO - Successfully fetched 22 records for CTG
-2025-08-19 11:24:39,196 - INFO - Successfully fetched 22 records for VPB
-2025-08-19 11:24:39,334 - INFO - Successfully fetched 22 records for ACB
-2025-08-19 11:24:39,454 - INFO - Successfully fetched 22 records for TPB
-2025-08-19 11:24:39,583 - INFO - Successfully fetched 22 records for STB
-2025-08-19 11:24:43,535 - INFO - Successfully fetched 22 records for EIB
-2025-08-19 11:24:43,660 - INFO - Successfully fetched 22 records for VHM
-2025-08-19 11:24:43,784 - INFO - Successfully fetched 22 records for VIC
-2025-08-19 11:24:43,924 - INFO - Successfully fetched 22 records for VRE
-2025-08-19 11:24:44,031 - INFO - Successfully fetched 22 records for KDH
-2025-08-19 11:24:44,159 - INFO - Successfully fetched 22 records for DXG
-2025-08-19 11:24:44,291 - INFO - Successfully fetched 22 records for NVL
-2025-08-19 11:24:44,425 - INFO - Successfully fetched 22 records for BCM
-2025-08-19 11:24:44,590 - INFO - Successfully fetched 22 records for KBC
-2025-08-19 11:24:44,741 - INFO - Successfully fetched 22 records for HDG
-2025-08-19 11:24:44,892 - INFO - Successfully fetched 22 records for FPT
-2025-08-19 11:24:45,015 - INFO - Successfully fetched 22 records for CMG
-2025-08-19 11:24:45,163 - INFO - Successfully fetched 22 records for ELC
-2025-08-19 11:24:45,312 - INFO - Successfully fetched 21 records for SVC
-2025-08-19 11:24:45,482 - INFO - Successfully fetched 22 records for VGI
-2025-08-19 11:24:45,634 - INFO - Successfully fetched 22 records for ITD
-2025-08-19 11:24:45,840 - INFO - Successfully fetched 22 records for CSI
-2025-08-19 11:24:45,966 - INFO - Successfully fetched 22 records for VNM
-2025-08-19 11:24:46,092 - INFO - Successfully fetched 22 records for MSN
-2025-08-19 11:24:46,220 - INFO - Successfully fetched 22 records for MWG
-2025-08-19 11:24:46,332 - INFO - Successfully fetched 22 records for PNJ
-2025-08-19 11:24:46,465 - INFO - Successfully fetched 22 records for SAB
-2025-08-19 11:24:46,613 - INFO - Successfully fetched 22 records for MCH
-2025-08-19 11:24:46,777 - INFO - Successfully fetched 22 records for DGW
-2025-08-19 11:24:46,902 - INFO - Successfully fetched 22 records for GAS
-2025-08-19 11:24:47,036 - INFO - Successfully fetched 22 records for PLX
-2025-08-19 11:24:47,182 - INFO - Successfully fetched 22 records for PVD
-2025-08-19 11:24:47,338 - INFO - Successfully fetched 22 records for POW
-2025-08-19 11:24:47,466 - INFO - Successfully fetched 22 records for REE
-2025-08-19 11:24:47,602 - INFO - Successfully fetched 22 records for NT2
-2025-08-19 11:24:47,750 - INFO - Successfully fetched 22 records for PVS
-2025-08-19 11:24:48,132 - INFO - Successfully fetched 22 records for HPG
-2025-08-19 11:24:48,267 - INFO - Successfully fetched 22 records for HSG
-2025-08-19 11:24:48,384 - INFO - Successfully fetched 22 records for NKG
-2025-08-19 11:24:48,532 - INFO - Successfully fetched 22 records for VNS
-2025-08-19 11:24:48,680 - INFO - Successfully fetched 21 records for POM
-2025-08-19 11:24:48,856 - INFO - Successfully fetched 22 records for AAA
-2025-08-19 11:24:49,035 - INFO - Successfully fetched 22 records for GMD
-2025-08-19 11:24:49,169 - INFO - Successfully fetched 22 records for VJC
-2025-08-19 11:24:49,340 - INFO - Successfully fetched 22 records for HVN
-2025-08-19 11:24:49,490 - INFO - Successfully fetched 22 records for ACV
-2025-08-19 11:24:49,652 - INFO - Successfully fetched 22 records for VTP
-2025-08-19 11:24:49,654 - INFO - Sector performance analysis completed
-2025-08-19 11:24:49,791 - INFO - Successfully fetched 22 records for VCB
-2025-08-19 11:24:49,917 - INFO - Successfully fetched 22 records for BID
-2025-08-19 11:24:50,090 - INFO - Successfully fetched 22 records for CTG
-2025-08-19 11:24:50,295 - INFO - Successfully fetched 22 records for TCB
-2025-08-19 11:24:50,457 - INFO - Successfully fetched 22 records for MBB
-2025-08-19 11:24:50,594 - INFO - Successfully fetched 22 records for VPB
-2025-08-19 11:24:50,745 - INFO - Successfully fetched 22 records for ACB
-2025-08-19 11:24:50,884 - INFO - Successfully fetched 22 records for TPB
-2025-08-19 11:24:51,086 - INFO - Successfully fetched 22 records for STB
-2025-08-19 11:24:51,243 - INFO - Successfully fetched 22 records for VHM
-2025-08-19 11:24:51,363 - INFO - Successfully fetched 22 records for VIC
-2025-08-19 11:24:51,514 - INFO - Successfully fetched 22 records for VRE
-2025-08-19 11:24:53,231 - INFO - Successfully fetched 22 records for KDH
-2025-08-19 11:24:53,351 - INFO - Successfully fetched 22 records for NVL
-2025-08-19 11:24:53,465 - INFO - Successfully fetched 22 records for DXG
-2025-08-19 11:24:53,618 - INFO - Successfully fetched 22 records for BCM
-2025-08-19 11:24:53,757 - INFO - Successfully fetched 22 records for VNM
-2025-08-19 11:24:53,890 - INFO - Successfully fetched 22 records for MSN
-2025-08-19 11:24:54,021 - INFO - Successfully fetched 22 records for MWG
-2025-08-19 11:24:54,139 - INFO - Successfully fetched 22 records for PNJ
-2025-08-19 11:24:54,263 - INFO - Successfully fetched 22 records for SAB
-2025-08-19 11:24:54,470 - INFO - Successfully fetched 22 records for GAS
-2025-08-19 11:24:54,589 - INFO - Successfully fetched 22 records for PLX
-2025-08-19 11:24:54,723 - INFO - Successfully fetched 22 records for POW
-2025-08-19 11:25:09,788 - ERROR - Timeout fetching data for REE
-2025-08-19 11:25:09,934 - INFO - Successfully fetched 22 records for HPG
-2025-08-19 11:25:10,069 - INFO - Successfully fetched 22 records for HSG
-2025-08-19 11:25:10,183 - INFO - Successfully fetched 22 records for NKG
-2025-08-19 11:25:10,301 - INFO - Successfully fetched 22 records for FPT
-2025-08-19 11:25:10,434 - INFO - Successfully fetched 22 records for CMG
-2025-08-19 11:25:10,588 - INFO - Successfully fetched 22 records for VJC
-2025-08-19 11:25:10,590 - INFO - VN30 analysis completed
-2025-08-19 11:25:10,718 - INFO - Successfully fetched 22 records for VCB
-2025-08-19 11:25:10,874 - INFO - Successfully fetched 22 records for TCB
-2025-08-19 11:25:11,005 - INFO - Successfully fetched 22 records for MBB
-2025-08-19 11:25:11,118 - INFO - Successfully fetched 22 records for BID
-2025-08-19 11:25:11,248 - INFO - Successfully fetched 22 records for CTG
-2025-08-19 11:25:11,382 - INFO - Successfully fetched 22 records for VPB
-2025-08-19 11:25:11,507 - INFO - Successfully fetched 22 records for ACB
-2025-08-19 11:25:11,640 - INFO - Successfully fetched 22 records for TPB
-2025-08-19 11:25:11,776 - INFO - Successfully fetched 22 records for STB
-2025-08-19 11:25:11,929 - INFO - Successfully fetched 22 records for EIB
-2025-08-19 11:25:12,060 - INFO - Successfully fetched 22 records for VHM
-2025-08-19 11:25:12,193 - INFO - Successfully fetched 22 records for VIC
-2025-08-19 11:25:12,335 - INFO - Successfully fetched 22 records for VRE
-2025-08-19 11:25:12,475 - INFO - Successfully fetched 22 records for KDH
-2025-08-19 11:25:12,623 - INFO - Successfully fetched 22 records for DXG
-2025-08-19 11:25:12,742 - INFO - Successfully fetched 22 records for NVL
-2025-08-19 11:25:12,878 - INFO - Successfully fetched 22 records for BCM
-2025-08-19 11:25:13,011 - INFO - Successfully fetched 22 records for KBC
-2025-08-19 11:25:13,119 - INFO - Successfully fetched 22 records for HDG
-2025-08-19 11:25:13,258 - INFO - Successfully fetched 22 records for FPT
-2025-08-19 11:25:13,393 - INFO - Successfully fetched 22 records for CMG
-2025-08-19 11:25:13,511 - INFO - Successfully fetched 22 records for ELC
-2025-08-19 11:25:13,649 - INFO - Successfully fetched 21 records for SVC
-2025-08-19 11:25:13,770 - INFO - Successfully fetched 22 records for VGI
-2025-08-19 11:25:13,925 - INFO - Successfully fetched 22 records for ITD
-2025-08-19 11:25:14,037 - INFO - Successfully fetched 22 records for CSI
-2025-08-19 11:25:14,164 - INFO - Successfully fetched 22 records for VNM
-2025-08-19 11:25:14,307 - INFO - Successfully fetched 22 records for MSN
-2025-08-19 11:25:14,433 - INFO - Successfully fetched 22 records for MWG
-2025-08-19 11:25:14,596 - INFO - Successfully fetched 22 records for PNJ
-2025-08-19 11:25:14,719 - INFO - Successfully fetched 22 records for SAB
-2025-08-19 11:25:14,846 - INFO - Successfully fetched 22 records for MCH
-2025-08-19 11:25:14,976 - INFO - Successfully fetched 22 records for DGW
-2025-08-19 11:25:15,097 - INFO - Successfully fetched 22 records for GAS
-2025-08-19 11:25:15,220 - INFO - Successfully fetched 22 records for PLX
-2025-08-19 11:25:15,341 - INFO - Successfully fetched 22 records for PVD
-2025-08-19 11:25:15,479 - INFO - Successfully fetched 22 records for POW
-2025-08-19 11:25:15,600 - INFO - Successfully fetched 22 records for REE
-2025-08-19 11:25:15,732 - INFO - Successfully fetched 22 records for NT2
-2025-08-19 11:25:15,881 - INFO - Successfully fetched 22 records for PVS
-2025-08-19 11:25:16,006 - INFO - Successfully fetched 22 records for HPG
-2025-08-19 11:25:16,141 - INFO - Successfully fetched 22 records for HSG
-2025-08-19 11:25:16,314 - INFO - Successfully fetched 22 records for NKG
-2025-08-19 11:25:16,425 - INFO - Successfully fetched 22 records for VNS
-2025-08-19 11:25:16,581 - INFO - Successfully fetched 21 records for POM
-2025-08-19 11:25:16,755 - INFO - Successfully fetched 22 records for AAA
-2025-08-19 11:25:16,949 - INFO - Successfully fetched 22 records for GMD
-2025-08-19 11:25:17,090 - INFO - Successfully fetched 22 records for VJC
-2025-08-19 11:25:17,221 - INFO - Successfully fetched 22 records for HVN
-2025-08-19 11:25:17,348 - INFO - Successfully fetched 22 records for ACV
-2025-08-19 11:25:17,515 - INFO - Successfully fetched 22 records for VTP
-2025-08-19 11:25:17,516 - INFO - Top stocks analysis completed
-2025-08-19 11:25:17,656 - INFO - Successfully fetched 5 records for VCB
-2025-08-19 11:25:17,804 - INFO - Successfully fetched 5 records for TCB
-2025-08-19 11:25:17,993 - INFO - Successfully fetched 5 records for MBB
-2025-08-19 11:25:18,131 - INFO - Successfully fetched 5 records for BID
-2025-08-19 11:25:18,254 - INFO - Successfully fetched 5 records for CTG
-2025-08-19 11:25:18,393 - INFO - Successfully fetched 5 records for VPB
-2025-08-19 11:25:18,513 - INFO - Successfully fetched 5 records for ACB
-2025-08-19 11:25:18,637 - INFO - Successfully fetched 5 records for TPB
-2025-08-19 11:25:19,355 - INFO - Successfully fetched 5 records for STB
-2025-08-19 11:25:19,502 - INFO - Successfully fetched 5 records for EIB
-2025-08-19 11:25:19,616 - INFO - Successfully fetched 5 records for VHM
-2025-08-19 11:25:19,739 - INFO - Successfully fetched 5 records for VIC
-2025-08-19 11:25:19,873 - INFO - Successfully fetched 5 records for VRE
-2025-08-19 11:25:20,007 - INFO - Successfully fetched 5 records for KDH
-2025-08-19 11:25:20,127 - INFO - Successfully fetched 5 records for DXG
-2025-08-19 11:25:20,251 - INFO - Successfully fetched 5 records for NVL
-2025-08-19 11:25:20,406 - INFO - Successfully fetched 5 records for BCM
-2025-08-19 11:25:20,561 - INFO - Successfully fetched 5 records for KBC
-2025-08-19 11:25:20,691 - INFO - Successfully fetched 5 records for HDG
-2025-08-19 11:25:20,842 - INFO - Successfully fetched 5 records for FPT
-2025-08-19 11:25:20,990 - INFO - Successfully fetched 5 records for CMG
-2025-08-19 11:25:21,134 - INFO - Successfully fetched 5 records for ELC
-2025-08-19 11:25:21,273 - INFO - Successfully fetched 4 records for SVC
-2025-08-19 11:25:21,429 - INFO - Successfully fetched 5 records for VGI
-2025-08-19 11:25:21,568 - INFO - Successfully fetched 5 records for ITD
-2025-08-19 11:25:21,717 - INFO - Successfully fetched 5 records for CSI
-2025-08-19 11:25:23,804 - INFO - Successfully fetched 5 records for VNM
-2025-08-19 11:25:23,939 - INFO - Successfully fetched 5 records for MSN
-2025-08-19 11:25:24,064 - INFO - Successfully fetched 5 records for MWG
-2025-08-19 11:25:24,228 - INFO - Successfully fetched 5 records for PNJ
-2025-08-19 11:25:24,360 - INFO - Successfully fetched 5 records for SAB
-2025-08-19 11:25:24,507 - INFO - Successfully fetched 5 records for MCH
-2025-08-19 11:25:24,659 - INFO - Successfully fetched 5 records for DGW
-2025-08-19 11:25:24,787 - INFO - Successfully fetched 5 records for GAS
-2025-08-19 11:25:24,949 - INFO - Successfully fetched 5 records for PLX
-2025-08-19 11:25:25,100 - INFO - Successfully fetched 5 records for PVD
-2025-08-19 11:25:25,216 - INFO - Successfully fetched 5 records for POW
-2025-08-19 11:25:26,246 - INFO - Successfully fetched 5 records for REE
-2025-08-19 11:25:26,386 - INFO - Successfully fetched 5 records for NT2
-2025-08-19 11:25:26,586 - INFO - Successfully fetched 5 records for PVS
-2025-08-19 11:25:27,720 - INFO - Successfully fetched 5 records for HPG
-2025-08-19 11:25:35,867 - INFO - Successfully fetched 5 records for HSG
-2025-08-19 11:25:36,017 - INFO - Successfully fetched 5 records for NKG
-2025-08-19 11:25:36,148 - INFO - Successfully fetched 5 records for VNS
-2025-08-19 11:25:36,294 - INFO - Successfully fetched 4 records for POM
-2025-08-19 11:25:36,448 - INFO - Successfully fetched 5 records for AAA
-2025-08-19 11:25:36,597 - INFO - Successfully fetched 5 records for GMD
-2025-08-19 11:25:36,741 - INFO - Successfully fetched 5 records for VJC
-2025-08-19 11:25:36,900 - INFO - Successfully fetched 5 records for HVN
-2025-08-19 11:25:37,052 - INFO - Successfully fetched 5 records for ACV
-2025-08-19 11:25:37,214 - INFO - Successfully fetched 5 records for VTP
-2025-08-19 11:25:37,214 - INFO - Market breadth analysis completed
-2025-08-19 11:25:37,351 - INFO - Successfully fetched 65 records for VNINDEX
-2025-08-19 11:25:37,467 - INFO - Successfully fetched 65 records for VN30
-2025-08-19 11:25:37,475 - INFO - Correlation analysis completed
-2025-08-19 11:25:37,475 - INFO - Correlation analysis completed
-2025-08-19 11:25:37,476 - INFO - Comprehensive VN market data fetch completed successfully
-2025-08-19 11:25:37,476 - INFO - Loading Vietnam economic indicators...
-2025-08-19 11:25:38,657 - INFO - Loading global economic context...
-2025-08-19 11:25:44,754 - INFO - Loading global markets data...
-2025-08-19 11:25:44,755 - INFO - Fetching global market data...
+
 2025-08-19 11:25:44,756 - WARNING - Download failed for ^GSPC: download() got an unexpected keyword argument 'show_errors'
 2025-08-19 11:25:44,768 - WARNING - Download failed for ^DJI: download() got an unexpected keyword argument 'show_errors'
 2025-08-19 11:25:44,776 - WARNING - Download failed for ^IXIC: download() got an unexpected keyword argument 'show_errors'
@@ -247,3 +26,499 @@
 2025-08-19 11:27:30,965 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=ï¿½streamlitï¿½ or theme=None to fallback to the default library theme.
 2025-08-19 11:27:44,057 - ERROR - Application failed: name 'charts' is not defined
 2025-08-19 11:28:49,868 - ERROR - Application failed: No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\tado\.streamlit\secrets.toml, C:\Users\tado\Downloads\ecotrack\.streamlit\secrets.toml
+2025-08-19 15:16:31,258 - INFO - Loading US economic data...
+2025-08-19 15:16:39,716 - INFO - Loading Fed probability data...
+2025-08-19 15:16:40,876 - INFO - Loading Vietnam market data...
+2025-08-19 15:16:40,876 - INFO - Starting comprehensive VN market data fetch...
+2025-08-19 15:16:40,876 - INFO - Fetching data for index: VNINDEX
+2025-08-19 15:16:41,117 - INFO - Successfully fetched 11 records for VNINDEX
+2025-08-19 15:16:41,279 - INFO - Successfully fetched 125 records for VNINDEX
+2025-08-19 15:16:41,291 - INFO - Successfully processed VNINDEX: 1654.20 (+1.09%)
+2025-08-19 15:16:41,291 - INFO - Fetching data for index: VN30
+2025-08-19 15:16:41,427 - INFO - Successfully fetched 11 records for VN30
+2025-08-19 15:16:41,606 - INFO - Successfully fetched 125 records for VN30
+2025-08-19 15:16:41,610 - INFO - Successfully processed VN30: 1810.46 (+1.35%)
+2025-08-19 15:16:41,610 - INFO - Fetching data for index: HNXINDEX
+2025-08-19 15:16:41,784 - INFO - Successfully fetched 11 records for HNXINDEX
+2025-08-19 15:16:41,934 - INFO - Successfully fetched 125 records for HNXINDEX
+2025-08-19 15:16:41,937 - INFO - Successfully processed HNXINDEX: 286.45 (+0.91%)
+2025-08-19 15:16:41,937 - INFO - Fetching data for index: HNX30
+2025-08-19 15:16:42,081 - INFO - Successfully fetched 11 records for HNX30
+2025-08-19 15:16:42,227 - INFO - Successfully fetched 125 records for HNX30
+2025-08-19 15:16:42,230 - INFO - Successfully processed HNX30: 634.71 (+0.54%)
+2025-08-19 15:16:42,230 - INFO - Fetching data for index: UPCOMINDEX
+2025-08-19 15:16:42,408 - INFO - No data returned for UPCOMINDEX
+2025-08-19 15:16:42,409 - WARNING - No recent data for UPCOMINDEX
+2025-08-19 15:16:42,410 - INFO - Processed 4 indices
+2025-08-19 15:16:42,577 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:16:42,711 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:16:42,845 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:16:43,005 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:16:43,131 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:16:43,296 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:16:43,419 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:16:43,529 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:16:43,646 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:16:43,813 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 15:16:43,961 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:16:44,110 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:16:44,225 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:16:44,351 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:16:44,496 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:16:44,614 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:16:44,745 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:16:44,869 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 15:16:44,994 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 15:16:45,125 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:16:45,264 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:16:45,392 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 15:16:45,503 - INFO - Successfully fetched 22 records for SVC
+2025-08-19 15:16:45,618 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 15:16:45,753 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 15:16:45,869 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 15:16:46,029 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:16:46,152 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:16:46,272 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:16:46,410 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:16:46,529 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:16:46,646 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 15:16:46,794 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 15:16:46,970 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:16:47,098 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:16:47,213 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 15:16:47,359 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:16:47,862 - INFO - Successfully fetched 22 records for REE
+2025-08-19 15:16:47,983 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 15:16:48,212 - INFO - Successfully fetched 22 records for PVS
+2025-08-19 15:16:49,207 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 15:16:49,338 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 15:16:49,469 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 15:16:49,609 - INFO - Successfully fetched 22 records for VNS
+2025-08-19 15:16:49,727 - INFO - Successfully fetched 21 records for POM
+2025-08-19 15:16:49,862 - INFO - Successfully fetched 22 records for AAA
+2025-08-19 15:16:50,014 - INFO - Successfully fetched 22 records for GMD
+2025-08-19 15:16:50,140 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 15:16:50,297 - INFO - Successfully fetched 22 records for HVN
+2025-08-19 15:16:50,426 - INFO - Successfully fetched 22 records for ACV
+2025-08-19 15:16:50,555 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 15:16:50,556 - INFO - Sector performance analysis completed
+2025-08-19 15:16:50,689 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:16:50,820 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:16:50,965 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:16:51,082 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:16:51,221 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:16:51,339 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:16:53,536 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:16:53,675 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:16:53,837 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:16:53,967 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:16:54,087 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:16:54,245 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:16:54,376 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:16:54,558 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:16:54,684 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:16:54,821 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:16:54,965 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:16:55,104 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:16:55,238 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:16:55,372 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:16:55,487 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:16:55,603 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:17:03,906 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:17:04,033 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:17:04,172 - INFO - Successfully fetched 22 records for REE
+2025-08-19 15:17:04,308 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 15:17:04,434 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 15:17:04,564 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 15:17:04,713 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:17:04,830 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:17:04,951 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 15:17:04,953 - INFO - VN30 analysis completed
+2025-08-19 15:17:05,096 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:17:05,227 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:17:05,355 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:17:05,512 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:17:05,685 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:17:05,825 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:17:05,952 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:17:06,078 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:17:06,196 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:17:06,311 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 15:17:06,459 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:17:06,593 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:17:06,713 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:17:06,891 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:17:07,028 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:17:07,153 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:17:07,282 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:17:07,417 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 15:17:07,559 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 15:17:07,714 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:17:07,837 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:17:08,057 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 15:17:08,218 - INFO - Successfully fetched 22 records for SVC
+2025-08-19 15:17:08,348 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 15:17:08,469 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 15:17:08,584 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 15:17:08,695 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:17:08,841 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:17:08,989 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:17:09,130 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:17:09,256 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:17:09,394 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 15:17:09,571 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 15:17:09,702 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:17:09,818 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:17:09,943 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 15:17:10,060 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:17:10,189 - INFO - Successfully fetched 22 records for REE
+2025-08-19 15:17:10,351 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 15:17:10,495 - WARNING - TCBS API returned 429 for PVS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:10,668 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 15:17:10,822 - WARNING - TCBS API returned 429 for HSG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:10,961 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 15:17:11,075 - WARNING - TCBS API returned 429 for VNS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:11,251 - INFO - Successfully fetched 21 records for POM
+2025-08-19 15:17:11,430 - INFO - Successfully fetched 22 records for AAA
+2025-08-19 15:17:11,545 - WARNING - TCBS API returned 429 for GMD: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:11,673 - WARNING - TCBS API returned 429 for VJC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:11,802 - WARNING - TCBS API returned 429 for HVN: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:11,938 - INFO - Successfully fetched 22 records for ACV
+2025-08-19 15:17:12,075 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 15:17:12,076 - INFO - Top stocks analysis completed
+2025-08-19 15:17:12,191 - WARNING - TCBS API returned 429 for VCB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:12,338 - WARNING - TCBS API returned 429 for TCB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:12,486 - WARNING - TCBS API returned 429 for MBB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:12,927 - WARNING - TCBS API returned 429 for BID: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:13,052 - INFO - Successfully fetched 5 records for CTG
+2025-08-19 15:17:13,158 - WARNING - TCBS API returned 429 for VPB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:13,259 - WARNING - TCBS API returned 429 for ACB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:13,405 - WARNING - TCBS API returned 429 for TPB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:13,538 - INFO - Successfully fetched 5 records for STB
+2025-08-19 15:17:13,712 - WARNING - TCBS API returned 429 for EIB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:13,854 - WARNING - TCBS API returned 429 for VHM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,002 - WARNING - TCBS API returned 429 for VIC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,143 - INFO - Successfully fetched 5 records for VRE
+2025-08-19 15:17:14,261 - WARNING - TCBS API returned 429 for KDH: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,384 - INFO - Successfully fetched 5 records for DXG
+2025-08-19 15:17:14,508 - WARNING - TCBS API returned 429 for NVL: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,628 - WARNING - TCBS API returned 429 for BCM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,746 - WARNING - TCBS API returned 429 for KBC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,853 - WARNING - TCBS API returned 429 for HDG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:14,991 - WARNING - TCBS API returned 429 for FPT: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:15,144 - INFO - Successfully fetched 5 records for CMG
+2025-08-19 15:17:15,256 - WARNING - TCBS API returned 429 for ELC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:15,406 - INFO - Successfully fetched 5 records for SVC
+2025-08-19 15:17:15,535 - WARNING - TCBS API returned 429 for VGI: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:15,657 - WARNING - TCBS API returned 429 for ITD: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:15,789 - INFO - Successfully fetched 5 records for CSI
+2025-08-19 15:17:15,923 - WARNING - TCBS API returned 429 for VNM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,047 - WARNING - TCBS API returned 429 for MSN: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,168 - INFO - Successfully fetched 5 records for MWG
+2025-08-19 15:17:16,316 - INFO - Successfully fetched 5 records for PNJ
+2025-08-19 15:17:16,429 - WARNING - TCBS API returned 429 for SAB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,565 - WARNING - TCBS API returned 429 for MCH: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,706 - WARNING - TCBS API returned 429 for DGW: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,821 - WARNING - TCBS API returned 429 for GAS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:16,951 - WARNING - TCBS API returned 429 for PLX: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:17,105 - WARNING - TCBS API returned 429 for PVD: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:17,237 - WARNING - TCBS API returned 429 for POW: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:17,370 - WARNING - TCBS API returned 429 for REE: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:17,527 - INFO - Successfully fetched 5 records for NT2
+2025-08-19 15:17:19,784 - WARNING - TCBS API returned 429 for PVS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:19,922 - WARNING - TCBS API returned 429 for HPG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:20,047 - WARNING - TCBS API returned 429 for HSG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,035 - WARNING - TCBS API returned 429 for NKG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,163 - WARNING - TCBS API returned 429 for VNS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,285 - WARNING - TCBS API returned 429 for POM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,408 - WARNING - TCBS API returned 429 for AAA: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,540 - INFO - Successfully fetched 5 records for GMD
+2025-08-19 15:17:22,657 - WARNING - TCBS API returned 429 for VJC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:22,791 - INFO - Successfully fetched 5 records for HVN
+2025-08-19 15:17:22,915 - WARNING - TCBS API returned 429 for ACV: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:17:23,044 - INFO - Successfully fetched 5 records for VTP
+2025-08-19 15:17:23,045 - INFO - Market breadth analysis completed
+2025-08-19 15:17:24,220 - INFO - Successfully fetched 65 records for VNINDEX
+2025-08-19 15:17:24,474 - INFO - Successfully fetched 65 records for VN30
+2025-08-19 15:17:24,482 - INFO - Correlation analysis completed
+2025-08-19 15:17:24,483 - INFO - Correlation analysis completed
+2025-08-19 15:17:24,483 - INFO - Comprehensive VN market data fetch completed successfully
+2025-08-19 15:17:24,483 - INFO - Loading Vietnam economic indicators...
+2025-08-19 15:17:25,580 - INFO - Loading global economic context...
+2025-08-19 15:17:30,664 - INFO - Loading global markets data...
+2025-08-19 15:17:30,664 - INFO - Fetching global market data...
+2025-08-19 15:17:31,477 - WARNING - Download failed for ^GSPC: ['Close']
+2025-08-19 15:17:31,706 - WARNING - Download failed for ^DJI: ['Close']
+2025-08-19 15:17:31,965 - WARNING - Download failed for ^IXIC: ['Close']
+2025-08-19 15:17:32,201 - WARNING - Download failed for ^FTSE: ['Close']
+2025-08-19 15:17:32,449 - WARNING - Download failed for ^N225: ['Close']
+2025-08-19 15:17:32,666 - WARNING - Download failed for ^HSI: ['Close']
+2025-08-19 15:17:32,669 - INFO - Successfully processed 0/6 indices
+2025-08-19 15:17:32,995 - WARNING - Download failed for EURUSD=X: ['Close']
+2025-08-19 15:17:33,352 - WARNING - Download failed for GBPUSD=X: ['Close']
+2025-08-19 15:17:33,668 - WARNING - Download failed for USDJPY=X: ['Close']
+2025-08-19 15:17:34,028 - WARNING - Download failed for DX-Y.NYB: ['Close']
+2025-08-19 15:17:34,356 - WARNING - Download failed for CL=F: ['Close']
+2025-08-19 15:17:34,682 - WARNING - Download failed for GC=F: ['Close']
+2025-08-19 15:17:35,029 - WARNING - Download failed for BTC-USD: ['Close']
+2025-08-19 15:17:35,357 - WARNING - Download failed for USDVND=X: ['Close']
+2025-08-19 15:17:35,358 - INFO - Successfully processed 0/8 FX/commodities
+2025-08-19 15:17:40,896 - WARNING - Download failed for VEA: ['Close']
+2025-08-19 15:17:41,295 - WARNING - Download failed for EEM: ['Close']
+2025-08-19 15:17:41,664 - WARNING - Download failed for VWO: ['Close']
+2025-08-19 15:17:42,169 - WARNING - Download failed for FEM: ['Close']
+2025-08-19 15:17:42,169 - INFO - Successfully processed 0/4 Vietnam-related ETFs
+2025-08-19 15:17:42,169 - INFO - Global market data fetch completed: 0/18 instruments (0.0% success rate)
+2025-08-19 15:17:42,170 - INFO - All data sources loaded successfully
+2025-08-19 15:17:54,260 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
+2025-08-19 15:18:48,364 - ERROR - Application failed: You set theme="plotly" while Streamlit charts only support theme=”streamlit” or theme=None to fallback to the default library theme.
+2025-08-19 15:18:54,720 - ERROR - Application failed: name 'charts' is not defined
+2025-08-19 15:19:38,156 - ERROR - Application failed: No secrets found. Valid paths for a secrets.toml file or secret directories are: C:\Users\tado\.streamlit\secrets.toml, C:\Users\tado\Downloads\ecotrack\.streamlit\secrets.toml
+2025-08-19 15:20:52,913 - INFO - Loading US economic data...
+2025-08-19 15:20:58,029 - INFO - Loading Fed probability data...
+2025-08-19 15:20:58,773 - INFO - Loading Vietnam market data...
+2025-08-19 15:20:58,773 - INFO - Starting comprehensive VN market data fetch...
+2025-08-19 15:20:58,773 - INFO - Fetching data for index: VNINDEX
+2025-08-19 15:20:58,982 - INFO - Successfully fetched 11 records for VNINDEX
+2025-08-19 15:20:59,158 - INFO - Successfully fetched 125 records for VNINDEX
+2025-08-19 15:20:59,161 - INFO - Successfully processed VNINDEX: 1654.20 (+1.09%)
+2025-08-19 15:20:59,162 - INFO - Fetching data for index: VN30
+2025-08-19 15:20:59,281 - INFO - Successfully fetched 11 records for VN30
+2025-08-19 15:20:59,449 - INFO - Successfully fetched 125 records for VN30
+2025-08-19 15:20:59,452 - INFO - Successfully processed VN30: 1810.46 (+1.35%)
+2025-08-19 15:20:59,453 - INFO - Fetching data for index: HNXINDEX
+2025-08-19 15:20:59,591 - INFO - Successfully fetched 11 records for HNXINDEX
+2025-08-19 15:20:59,760 - INFO - Successfully fetched 125 records for HNXINDEX
+2025-08-19 15:20:59,763 - INFO - Successfully processed HNXINDEX: 286.45 (+0.91%)
+2025-08-19 15:20:59,763 - INFO - Fetching data for index: HNX30
+2025-08-19 15:20:59,886 - INFO - Successfully fetched 11 records for HNX30
+2025-08-19 15:21:00,101 - INFO - Successfully fetched 125 records for HNX30
+2025-08-19 15:21:00,103 - INFO - Successfully processed HNX30: 634.71 (+0.54%)
+2025-08-19 15:21:00,103 - INFO - Fetching data for index: UPCOMINDEX
+2025-08-19 15:21:00,208 - INFO - No data returned for UPCOMINDEX
+2025-08-19 15:21:00,209 - WARNING - No recent data for UPCOMINDEX
+2025-08-19 15:21:00,210 - INFO - Processed 4 indices
+2025-08-19 15:21:00,378 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:21:00,510 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:21:00,686 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:21:00,809 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:21:00,934 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:21:01,066 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:21:01,204 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:21:01,325 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:21:01,486 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:21:01,601 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 15:21:01,723 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:21:01,863 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:21:02,027 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:21:02,172 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:21:02,300 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:21:02,422 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:21:02,552 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:21:02,692 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 15:21:02,823 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 15:21:02,958 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:21:03,122 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:21:03,255 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 15:21:03,395 - INFO - Successfully fetched 22 records for SVC
+2025-08-19 15:21:03,530 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 15:21:03,681 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 15:21:03,804 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 15:21:03,954 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:21:04,091 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:21:04,225 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:21:12,351 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:21:12,501 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:21:12,647 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 15:21:12,768 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 15:21:12,879 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:21:13,035 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:21:13,191 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 15:21:13,330 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:21:13,503 - INFO - Successfully fetched 22 records for REE
+2025-08-19 15:21:15,595 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 15:21:16,114 - INFO - Successfully fetched 22 records for PVS
+2025-08-19 15:21:16,262 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 15:21:16,380 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 15:21:16,501 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 15:21:16,642 - INFO - Successfully fetched 22 records for VNS
+2025-08-19 15:21:17,635 - INFO - Successfully fetched 21 records for POM
+2025-08-19 15:21:17,769 - INFO - Successfully fetched 22 records for AAA
+2025-08-19 15:21:17,930 - INFO - Successfully fetched 22 records for GMD
+2025-08-19 15:21:18,043 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 15:21:18,207 - INFO - Successfully fetched 22 records for HVN
+2025-08-19 15:21:18,335 - INFO - Successfully fetched 22 records for ACV
+2025-08-19 15:21:18,474 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 15:21:18,475 - INFO - Sector performance analysis completed
+2025-08-19 15:21:18,606 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:21:18,738 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:21:18,873 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:21:18,993 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:21:19,163 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:21:19,274 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:21:19,403 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:21:19,528 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:21:19,659 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:21:19,777 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:21:19,908 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:21:20,067 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:21:20,201 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:21:20,318 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:21:20,431 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:21:20,577 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:21:20,707 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:21:20,886 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:21:21,046 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:21:21,180 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:21:21,342 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:21:21,472 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:21:21,619 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:21:21,742 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:21:21,875 - INFO - Successfully fetched 22 records for REE
+2025-08-19 15:21:22,001 - INFO - Successfully fetched 22 records for HPG
+2025-08-19 15:21:22,143 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 15:21:22,268 - INFO - Successfully fetched 22 records for NKG
+2025-08-19 15:21:22,400 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:21:22,519 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:21:22,642 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 15:21:22,643 - INFO - VN30 analysis completed
+2025-08-19 15:21:22,766 - INFO - Successfully fetched 22 records for VCB
+2025-08-19 15:21:22,909 - INFO - Successfully fetched 22 records for TCB
+2025-08-19 15:21:23,026 - INFO - Successfully fetched 22 records for MBB
+2025-08-19 15:21:23,157 - INFO - Successfully fetched 22 records for BID
+2025-08-19 15:21:23,305 - INFO - Successfully fetched 22 records for CTG
+2025-08-19 15:21:23,430 - INFO - Successfully fetched 22 records for VPB
+2025-08-19 15:21:23,548 - INFO - Successfully fetched 22 records for ACB
+2025-08-19 15:21:23,663 - INFO - Successfully fetched 22 records for TPB
+2025-08-19 15:21:23,774 - INFO - Successfully fetched 22 records for STB
+2025-08-19 15:21:23,930 - INFO - Successfully fetched 22 records for EIB
+2025-08-19 15:21:24,092 - INFO - Successfully fetched 22 records for VHM
+2025-08-19 15:21:24,216 - INFO - Successfully fetched 22 records for VIC
+2025-08-19 15:21:24,334 - INFO - Successfully fetched 22 records for VRE
+2025-08-19 15:21:24,481 - INFO - Successfully fetched 22 records for KDH
+2025-08-19 15:21:24,637 - INFO - Successfully fetched 22 records for DXG
+2025-08-19 15:21:24,784 - INFO - Successfully fetched 22 records for NVL
+2025-08-19 15:21:24,913 - INFO - Successfully fetched 22 records for BCM
+2025-08-19 15:21:25,045 - INFO - Successfully fetched 22 records for KBC
+2025-08-19 15:21:25,161 - INFO - Successfully fetched 22 records for HDG
+2025-08-19 15:21:25,327 - INFO - Successfully fetched 22 records for FPT
+2025-08-19 15:21:25,444 - INFO - Successfully fetched 22 records for CMG
+2025-08-19 15:21:25,591 - INFO - Successfully fetched 22 records for ELC
+2025-08-19 15:21:25,743 - INFO - Successfully fetched 22 records for SVC
+2025-08-19 15:21:25,866 - INFO - Successfully fetched 22 records for VGI
+2025-08-19 15:21:25,975 - INFO - Successfully fetched 22 records for ITD
+2025-08-19 15:21:26,099 - INFO - Successfully fetched 22 records for CSI
+2025-08-19 15:21:26,243 - INFO - Successfully fetched 22 records for VNM
+2025-08-19 15:21:26,375 - INFO - Successfully fetched 22 records for MSN
+2025-08-19 15:21:26,497 - INFO - Successfully fetched 22 records for MWG
+2025-08-19 15:21:26,630 - INFO - Successfully fetched 22 records for PNJ
+2025-08-19 15:21:26,795 - INFO - Successfully fetched 22 records for SAB
+2025-08-19 15:21:26,925 - INFO - Successfully fetched 22 records for MCH
+2025-08-19 15:21:27,090 - INFO - Successfully fetched 22 records for DGW
+2025-08-19 15:21:27,215 - INFO - Successfully fetched 22 records for GAS
+2025-08-19 15:21:27,342 - INFO - Successfully fetched 22 records for PLX
+2025-08-19 15:21:27,463 - INFO - Successfully fetched 22 records for PVD
+2025-08-19 15:21:27,573 - INFO - Successfully fetched 22 records for POW
+2025-08-19 15:21:27,688 - WARNING - TCBS API returned 429 for REE: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:27,865 - INFO - Successfully fetched 22 records for NT2
+2025-08-19 15:21:27,999 - INFO - Successfully fetched 22 records for PVS
+2025-08-19 15:21:28,115 - WARNING - TCBS API returned 429 for HPG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:28,234 - INFO - Successfully fetched 22 records for HSG
+2025-08-19 15:21:28,398 - WARNING - TCBS API returned 429 for NKG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:28,523 - INFO - Successfully fetched 22 records for VNS
+2025-08-19 15:21:28,650 - INFO - Successfully fetched 21 records for POM
+2025-08-19 15:21:28,756 - WARNING - TCBS API returned 429 for AAA: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:28,879 - INFO - Successfully fetched 22 records for GMD
+2025-08-19 15:21:28,995 - INFO - Successfully fetched 22 records for VJC
+2025-08-19 15:21:29,102 - WARNING - TCBS API returned 429 for HVN: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:29,229 - WARNING - TCBS API returned 429 for ACV: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:29,370 - INFO - Successfully fetched 22 records for VTP
+2025-08-19 15:21:29,372 - INFO - Top stocks analysis completed
+2025-08-19 15:21:29,521 - INFO - Successfully fetched 5 records for VCB
+2025-08-19 15:21:29,693 - WARNING - TCBS API returned 429 for TCB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:29,820 - INFO - Successfully fetched 5 records for MBB
+2025-08-19 15:21:29,932 - INFO - Successfully fetched 5 records for BID
+2025-08-19 15:21:30,060 - INFO - Successfully fetched 5 records for CTG
+2025-08-19 15:21:30,178 - WARNING - TCBS API returned 429 for VPB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:30,296 - INFO - Successfully fetched 5 records for ACB
+2025-08-19 15:21:30,415 - INFO - Successfully fetched 5 records for TPB
+2025-08-19 15:21:30,527 - WARNING - TCBS API returned 429 for STB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:30,628 - WARNING - TCBS API returned 429 for EIB: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:30,763 - WARNING - TCBS API returned 429 for VHM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:30,871 - WARNING - TCBS API returned 429 for VIC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:31,045 - INFO - Successfully fetched 5 records for VRE
+2025-08-19 15:21:31,164 - INFO - Successfully fetched 5 records for KDH
+2025-08-19 15:21:31,314 - INFO - Successfully fetched 5 records for DXG
+2025-08-19 15:21:31,433 - INFO - Successfully fetched 5 records for NVL
+2025-08-19 15:21:31,601 - INFO - Successfully fetched 5 records for BCM
+2025-08-19 15:21:31,709 - WARNING - TCBS API returned 429 for KBC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:31,841 - INFO - Successfully fetched 5 records for HDG
+2025-08-19 15:21:31,952 - WARNING - TCBS API returned 429 for FPT: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:32,083 - WARNING - TCBS API returned 429 for CMG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:32,250 - INFO - Successfully fetched 5 records for ELC
+2025-08-19 15:21:32,355 - WARNING - TCBS API returned 429 for SVC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:32,459 - WARNING - TCBS API returned 429 for VGI: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:32,594 - INFO - Successfully fetched 5 records for ITD
+2025-08-19 15:21:33,059 - INFO - Successfully fetched 5 records for CSI
+2025-08-19 15:21:33,160 - WARNING - TCBS API returned 429 for VNM: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:33,279 - INFO - Successfully fetched 5 records for MSN
+2025-08-19 15:21:33,395 - WARNING - TCBS API returned 429 for MWG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:33,542 - WARNING - TCBS API returned 429 for PNJ: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:33,659 - INFO - Successfully fetched 5 records for SAB
+2025-08-19 15:21:33,797 - WARNING - TCBS API returned 429 for MCH: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:33,948 - WARNING - TCBS API returned 429 for DGW: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:34,060 - WARNING - TCBS API returned 429 for GAS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:34,185 - INFO - Successfully fetched 5 records for PLX
+2025-08-19 15:21:34,301 - INFO - Successfully fetched 5 records for PVD
+2025-08-19 15:21:34,431 - WARNING - TCBS API returned 429 for POW: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:34,541 - WARNING - TCBS API returned 429 for REE: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:34,677 - INFO - Successfully fetched 5 records for NT2
+2025-08-19 15:21:34,792 - WARNING - TCBS API returned 429 for PVS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:34,926 - WARNING - TCBS API returned 429 for HPG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,045 - INFO - Successfully fetched 5 records for HSG
+2025-08-19 15:21:35,152 - WARNING - TCBS API returned 429 for NKG: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,305 - WARNING - TCBS API returned 429 for VNS: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,457 - INFO - Successfully fetched 4 records for POM
+2025-08-19 15:21:35,578 - WARNING - TCBS API returned 429 for AAA: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,712 - WARNING - TCBS API returned 429 for GMD: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,818 - WARNING - TCBS API returned 429 for VJC: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:35,940 - INFO - Successfully fetched 5 records for HVN
+2025-08-19 15:21:36,092 - WARNING - TCBS API returned 429 for ACV: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:36,204 - WARNING - TCBS API returned 429 for VTP: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:36,205 - INFO - Market breadth analysis completed
+2025-08-19 15:21:36,314 - WARNING - TCBS API returned 429 for VNINDEX: {"status":429,"message":"Too many requests!"}
+2025-08-19 15:21:36,448 - INFO - Successfully fetched 65 records for VN30
+2025-08-19 15:21:36,449 - INFO - Correlation analysis completed
+2025-08-19 15:21:36,449 - INFO - Correlation analysis completed
+2025-08-19 15:21:36,450 - INFO - Comprehensive VN market data fetch completed successfully
+2025-08-19 15:21:36,450 - INFO - Loading Vietnam economic indicators...
+2025-08-19 15:21:37,744 - INFO - Loading global economic context...
+2025-08-19 15:21:42,751 - INFO - Loading global markets data...
+2025-08-19 15:21:42,752 - INFO - Fetching global market data...
+2025-08-19 15:21:43,464 - WARNING - Download failed for ^GSPC: ['Close']
+2025-08-19 15:21:43,719 - WARNING - Download failed for ^DJI: ['Close']
+2025-08-19 15:21:43,956 - WARNING - Download failed for ^IXIC: ['Close']
+2025-08-19 15:21:44,163 - WARNING - Download failed for ^FTSE: ['Close']
+2025-08-19 15:21:44,416 - WARNING - Download failed for ^N225: ['Close']
+2025-08-19 15:21:44,665 - WARNING - Download failed for ^HSI: ['Close']
+2025-08-19 15:21:44,671 - INFO - Successfully processed 0/6 indices
+2025-08-19 15:21:44,914 - WARNING - Download failed for EURUSD=X: ['Close']
+2025-08-19 15:21:45,143 - WARNING - Download failed for GBPUSD=X: ['Close']
+2025-08-19 15:21:45,387 - WARNING - Download failed for USDJPY=X: ['Close']
+2025-08-19 15:21:45,652 - WARNING - Download failed for DX-Y.NYB: ['Close']
+2025-08-19 15:21:45,949 - WARNING - Download failed for CL=F: ['Close']
+2025-08-19 15:21:46,181 - WARNING - Download failed for GC=F: ['Close']
+2025-08-19 15:21:46,406 - WARNING - Download failed for BTC-USD: ['Close']
+2025-08-19 15:21:46,631 - WARNING - Download failed for USDVND=X: ['Close']
+2025-08-19 15:21:46,632 - INFO - Successfully processed 0/8 FX/commodities
+2025-08-19 15:21:46,870 - WARNING - Download failed for VEA: ['Close']
+2025-08-19 15:21:47,145 - WARNING - Download failed for EEM: ['Close']
+2025-08-19 15:21:47,413 - WARNING - Download failed for VWO: ['Close']
+2025-08-19 15:21:47,647 - WARNING - Download failed for FEM: ['Close']
+2025-08-19 15:21:47,647 - INFO - Successfully processed 0/4 Vietnam-related ETFs
+2025-08-19 15:21:47,648 - INFO - Global market data fetch completed: 0/18 instruments (0.0% success rate)
+2025-08-19 15:21:47,648 - INFO - All data sources loaded successfully
+2025-08-19 15:22:48,715 - ERROR - Application failed: name 'charts' is not defined
+2025-08-19 15:22:57,503 - ERROR - Application failed: name 'charts' is not defined
+2025-08-19 15:22:59,164 - ERROR - Application failed: name 'charts' is not defined
+2025-08-19 15:23:00,379 - ERROR - Application failed: name 'charts' is not defined
